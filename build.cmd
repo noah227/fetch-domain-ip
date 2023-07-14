@@ -1,0 +1,1 @@
+pyinstaller -D -i favicon.png --add-data "server.ini;." --add-data "domain-list.txt;." main.py
